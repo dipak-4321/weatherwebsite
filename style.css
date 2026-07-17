@@ -52,5 +52,22 @@ body {
 .search img{
     width: 16px;
 }
+.bottom {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.rightcol {
+    margin-left: 30px;
+
+}
+.leftcol {
+    margin-right: 30px;
+
+}
+#humidity {
+    margin-top: 10px;
+}
 
