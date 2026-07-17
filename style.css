@@ -52,22 +52,39 @@ body {
 .search img{
     width: 16px;
 }
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
 .bottom {
     padding: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
 }
-.rightcol {
-    margin-left: 30px;
+.windimg , .humidityimg {
+    width : 40px;
+} 
+.rightcol , .leftcol {
+  display: flex;
+  align-items: center;
+  text-align: right;
+
 
 }
-.leftcol {
-    margin-right: 30px;
 
-}
-#humidity {
-    margin-top: 10px;
+#humidity , #wind {
+ font-size: 28px;
+ margin-top: -6px;
 }
 
