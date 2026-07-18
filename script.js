@@ -1,6 +1,7 @@
 let buttonbox = document.querySelector(".search");
 let inputbox = document.querySelector(".header input");
 let weatherIcon = document.querySelector(".weather-icon");
+let weather = document.querySelector(".weather");
 
 const url ="https://api.openweathermap.org/data/2.5/weather?&appid=fc0cf0dd82b93e46c264999f54371caa&units=metric&q=" ;
 
@@ -31,4 +32,5 @@ async function checkWeather(city) {
 }
 buttonbox.addEventListener("click", ()=>{
    checkWeather(inputbox.value);
+   weather.style.display = "block";
 });
