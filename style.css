@@ -72,7 +72,7 @@ body {
     justify-content: space-between;
 
 }
-.windimg , .humidityimg {
+.winding , .humiditying {
     width : 40px;
 } 
 .rightcol , .leftcol {
@@ -83,8 +83,9 @@ body {
 
 }
 
-#humidity , #wind {
+.humidity , .wind {
  font-size: 28px;
  margin-top: -6px;
+ margin-left: 7px;
 }
 
