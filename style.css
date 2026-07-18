@@ -16,15 +16,24 @@ body {
     margin: 80px auto;
     border-radius: 10px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .header {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 20px ;
+    flex-wrap: wrap;
     padding-bottom: 20px;
+
   
+}
+.error {
+    padding-right:70px;
+    text-align: left;
+    display: none;
 }
 .header input {
     outline: 0;

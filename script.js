@@ -7,8 +7,16 @@ const url ="https://api.openweathermap.org/data/2.5/weather?&appid=fc0cf0dd82b93
 
 async function checkWeather(city) {
     const response = await fetch( url + city );
+
+    if(response.status == 404){
+        document.querySelector(".error").style.display = "block"; 
+        weather.style.display = "none";
+
+    }else {
+
     let data = await response.json();
     console.log(data);
+
 
     document.querySelector(".temp").innerText = data.main.temp;
     document.querySelector(".city").innerText = data.name;
@@ -28,9 +36,15 @@ async function checkWeather(city) {
     } else if(data.weather[0].main == "Snow"){
         weatherIcon.src = "snow.png";
     }
+    
+       weather.style.display = "block";
+      document.querySelector(".error").style.display = "none"; 
+       
 
+}
 }
 buttonbox.addEventListener("click", ()=>{
    checkWeather(inputbox.value);
-   weather.style.display = "block";
+
 });
+    
