@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Poppins;
+    font-family: 'Poppins' , sans-serif;
 }
 body {
     background-color: black;
@@ -31,7 +31,7 @@ body {
   
 }
 .error {
-    padding-right:70px;
+    padding-right:180px;
     text-align: left;
     display: none;
 }
