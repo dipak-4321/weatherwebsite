@@ -52,7 +52,7 @@ cd YOUR_PROJECT_FOLDER
 
 Open the `index.html` file in your web browser, or use the Live Server extension in VS Code.
 
-**Note:** A valid AccuWeather API key and an active internet connection are required to retrieve weather data.
+
 
 ## 🔑 API Integration
 
@@ -75,7 +75,7 @@ weatherwebsite/
 └── README.md
 ```
 
-*Note: Update the filenames above if your actual project structure is different.*
+
 
 ## 🎯 Project Purpose
 
